@@ -1,0 +1,152 @@
+/* .box {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    border: 2px solid #000; */
+/* min-height: 400px; */
+/* width: 1200px;
+
+    font-size: 30px;
+    margin: 30px auto;
+
+    display: flex;
+    flex-wrap: wrap; */
+
+/* flex-direction: column; */
+/* align-items: flex-end; */
+/* justify-content: space-evenly; */
+
+/* align-content: flex-start;
+}
+
+.box__item {
+    background-color: lemonchiffon;
+    border: 1px solid brown;
+    padding: 15px;
+    height: 150px;
+    width: 300px; */
+/* 
+    margin-top: 30px;
+    margin-bottom: 50px; */
+
+/* flex-grow: 1;
+    flex-basis: 400px; */
+/* flex-shrink: 1; */
+/* flex: flex-grow flex-shrink flex-basis;*/
+
+/* display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box__item--second { */
+/* align-self: flex-end; */
+/* margin-bottom: 30px; */
+/* flex-grow: 5; */
+/* flex-basis: 1000px;
+    flex-shrink: 0; */
+/* margin: auto; */
+
+/* order: 1; */
+/* } */
+/* 
+For text inside elements
+    text-align
+
+For inline element
+    text-align
+    vertical-align
+
+    margin-right
+    margin-left
+    padding-right
+    padding-left
+
+For inline-block element
+    text-align
+    vertical-align -> MUST HAVE
+
+    margin
+    padding
+
+For block element
+    margin
+    padding
+
+FLEX FOR ALL ELEMENTS
+*/
+.box {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    border: 2px solid #000;
+    width: 1200px;
+
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px auto;
+
+    display: flex;
+}
+
+.box__item {
+    background-color: lemonchiffon;
+    border: 1px solid brown;
+    padding: 50px 15px;
+}
+
+/* TASK 1 */
+/* 
+.box {
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+/* .box__item {
+    width: calc((100% - 40px) / 3); */
+
+/* display: flex;
+    justify-content: center;
+    align-items: center; */
+/* padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+    margin-bottom: 20px;
+} */
+
+/* TASK 2 */
+
+/* .box {
+    padding: 20px;
+}
+.box__item--first,
+.box__item--third {
+    margin-right: 20px;
+}
+
+.box__item--second {
+    margin-right: auto;
+} */
+
+/* TASK 3 */
+
+.box {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 500px;
+    padding: 20px;
+}
+.box__item--first {
+    width: 70%;
+    /* height: 500px; */
+    flex-basis: 500px;
+}
+.box__item--third,
+.box__item--second {
+    width: calc(30% - 20px);
+    /* height: calc(50% - 10px); */
+    flex-basis: 210px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Пример preventDefault</title>
+    </head>
+
+    <body>
+        <p>Пожалуйста, щёлкните по флажку.</p>
+
+        <form>
+            <input type="checkbox" id="my-checkbox" />
+            <label for="my-checkbox">Checkbox</label>
+        </form>
+
+        <script>
+            function stopDefAction(evt) {
+                evt.preventDefault();
+            }
+
+            document
+                .getElementById("my-checkbox")
+                .addEventListener("click", stopDefAction, false);
+        </script>
+    </body>
+</html>

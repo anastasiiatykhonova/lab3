@@ -1,0 +1,33 @@
+.page {
+    height: 100%;
+}
+.page__body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.text {
+    line-height: 1.25;
+    font-weight: 700;
+    font-size: 20px;
+    /* color: #000; */
+}
+.text--green {
+    color: green;
+}
+
+p {
+    color: #ff7f50;
+}
+/* [class] {
+    color: red;
+} */
+/*
+    Tag, pseudo-elements - 1
+    Class, pseudo-class, by attribute - 10
+    ID - 100
+    Attribute style - 1000
+
+    !important
+*/
